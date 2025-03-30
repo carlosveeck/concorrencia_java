@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
-public class Main {
+public class Flight {
     private static final ReentrantLock lock = new ReentrantLock();
     private static final Condition pistaDisponivel = lock.newCondition();
     private static int pistasLivres;
